@@ -6,7 +6,7 @@ namespace Task_4
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello, World!");
         }
     }
 }
