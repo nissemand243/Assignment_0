@@ -3,7 +3,7 @@ using Xunit;
 
 namespace Task_4.Tests
 {
-    public class UnitTest1
+    public class Hello_Worl_Test
     {
         [Fact]
         public void Test1()
