@@ -3,6 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
+
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leap_Year", "Leap_Year\Leap_Year.csproj", "{1FE89F15-00D0-4659-80B3-ECA5896F7579}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leap_Year.Test", "Leap_Year.Test\Leap_Year.Test.csproj", "{CE5DE50B-2853-4FE2-99E0-1004CD028995}"
@@ -10,6 +11,7 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task_4", "Task_4\Task_4.csproj", "{8987C8CF-CB21-4804-9D2D-201BBA0F16A5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task_4.Tests", "Task_4.Tests\Task_4.Tests.csproj", "{31F56431-2A88-44AA-A38C-9C3EBC8F988D}"
+
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -72,5 +74,6 @@ Global
 		{31F56431-2A88-44AA-A38C-9C3EBC8F988D}.Release|x64.Build.0 = Release|Any CPU
 		{31F56431-2A88-44AA-A38C-9C3EBC8F988D}.Release|x86.ActiveCfg = Release|Any CPU
 		{31F56431-2A88-44AA-A38C-9C3EBC8F988D}.Release|x86.Build.0 = Release|Any CPU
+
 	EndGlobalSection
 EndGlobal
