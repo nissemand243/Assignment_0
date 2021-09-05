@@ -1,12 +1,30 @@
 ﻿using System;
+using System.IO;
 
 namespace Leap_Year
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            
+        }
+
+        public static bool IsLeapYear(int year){
+            if(year % 4 == 0){
+                if(year % 100 == 0){
+                    if(year % 400 == 0){
+                        return true;
+                    }else{
+                        return false;
+                    }
+                }else{
+                    return true;
+                }
+            }else{
+                return false;
+            }
         }
     }
 }
+

@@ -7,7 +7,7 @@ namespace Task_4.Tests
     public class Hello_World_Test
     {
         [Fact]
-        public void Test1()
+        public void Main_Prints_Hello_World()
         {
             // Arrange
             var writer = new StringWriter();
