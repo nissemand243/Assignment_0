@@ -12,17 +12,14 @@ namespace Leap_Year
             int res = Convert.ToInt32(input);
 
             bool LeapYear = IsLeapYear(res);
-
             if(LeapYear)
             {
                 Console.WriteLine("yay, it is a leap year");
             }else
             {
-
                 Console.WriteLine("oh no, it is not a leap year");
             }
         }
-
 
         public static bool IsLeapYear(int year)
         {
@@ -43,7 +40,6 @@ namespace Leap_Year
                 }
             }else
             {
-
                 return false;
             }
         }
